@@ -1,3 +1,6 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
 #wonderpus_header {
   width: 75%;
   display: block;
@@ -40,7 +43,7 @@
    padding:0;
    position:relative;
    right:50%;
-   font-size: 16px;
+   font-size: 20px;
 
 }
 #centered_nav ul li a {
@@ -102,7 +105,15 @@ footer > p > a {
 
   h4 {
     text-align: center;
+  }
 
+  h4 > a {
+    text-decoration: none;
+    color: black;
+  }
+
+  h4 > a:visited {
+    color: black;
   }
 
   #beef_oven {
@@ -111,7 +122,13 @@ footer > p > a {
     margin: 0 10px;
   }
 
-  #ben_spinx {
+  #ben_spinks {
+    float: left;
+    width: 30%;
+    margin: 0 10px;
+  }
+
+  #churchyard {
     float: left;
     width: 30%;
     margin: 0 10px;
@@ -126,5 +143,11 @@ footer > p > a {
   #rpb {
     float: left;        
     width: 30%;    
+    margin: 0 10px;
+  }
+
+  #stewart {
+    float: left;
+    width: 30%;
     margin: 0 10px;
   }
